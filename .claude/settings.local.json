@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_match.py:*)",
+      "Bash(python:*)",
+      "Bash(python3 find_avatar.py:*)",
+      "Bash(ls:*)",
+      "Bash(/Users/zxy/Project/python_demo/.venv/bin/python3.11:*)",
+      "Bash(/Users/zxy/Project/python_demo/save_photo/venv/bin/python3.11:*)",
+      "Bash(/opt/homebrew/bin/python3.11:*)",
+      "Bash(conda env list:*)",
+      "Bash(conda info:*)",
+      "Bash(source:*)",
+      "Bash(/opt/homebrew/Caskroom/miniconda/base/bin/conda info:*)",
+      "Bash(/opt/anaconda3/bin/conda info:*)",
+      "Bash(/opt/anaconda3/bin/conda run -n base python --version)",
+      "Bash(/opt/anaconda3/bin/conda run -n py3.12 python:*)",
+      "Bash(/opt/anaconda3/bin/conda run -n py3.12 pip list:*)",
+      "Bash(/opt/anaconda3/bin/conda run:*)",
+      "Bash(/opt/anaconda3/bin/conda install:*)",
+      "Bash(/opt/anaconda3/bin/conda env create:*)"
+    ]
+  }
+}

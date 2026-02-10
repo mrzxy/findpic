@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# 测试图片和结果
+*.png
+*.jpg
+*.jpeg
+!example_*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 结果文件
+match_result.png
+marked_result.png
+result.png
+avatar_location.png
